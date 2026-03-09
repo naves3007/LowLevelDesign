@@ -1,0 +1,58 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/nklazy/Desktop/LowLevelDesign/concurrency-notes/detach-threads'
+relocations:
+  - { offset: 0x7134, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x360CA, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x7606, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_detach_threads.cpp, symObjAddr: 0x958, symBinAddr: 0x100000FF8, symSize: 0x14 }
+  - { offset: 0x7622, size: 0x8, addend: 0x0, symName: __ZNSt10_Head_baseILm0EPFvvELb0EE7_M_headERS2_, symObjAddr: 0x810, symBinAddr: 0x100000FA8, symSize: 0x14 }
+  - { offset: 0x764F, size: 0x8, addend: 0x0, symName: __ZNSt11_Tuple_implILm0EJPFvvEEE7_M_headERS2_, symObjAddr: 0x7F4, symBinAddr: 0x100000F8C, symSize: 0x1C }
+  - { offset: 0x767F, size: 0x8, addend: 0x0, symName: __ZSt13__invoke_implIvPFvvEJEET_St14__invoke_otherOT0_DpOT1_, symObjAddr: 0x7C8, symBinAddr: 0x100000F60, symSize: 0x2C }
+  - { offset: 0x76D3, size: 0x8, addend: 0x0, symName: __ZSt7forwardIPFvvEEOT_RNSt16remove_referenceIS2_E4typeE, symObjAddr: 0x7B4, symBinAddr: 0x100000F4C, symSize: 0x14 }
+  - { offset: 0x7709, size: 0x8, addend: 0x0, symName: __ZSt12__get_helperILm0EPFvvEJEERT0_RSt11_Tuple_implIXT_EJS2_DpT1_EE, symObjAddr: 0x798, symBinAddr: 0x100000F30, symSize: 0x1C }
+  - { offset: 0x774B, size: 0x8, addend: 0x0, symName: __ZSt8__invokeIPFvvEJEENSt15__invoke_resultIT_JDpT0_EE4typeEOS3_DpOS4_, symObjAddr: 0x764, symBinAddr: 0x100000EFC, symSize: 0x34 }
+  - { offset: 0x778D, size: 0x8, addend: 0x0, symName: __ZSt3getILm0EJPFvvEEEONSt13tuple_elementIXT_ESt5tupleIJDpT0_EEE4typeEOS6_, symObjAddr: 0x744, symBinAddr: 0x100000EDC, symSize: 0x20 }
+  - { offset: 0x77D2, size: 0x8, addend: 0x0, symName: __ZSt4moveIRSt5tupleIJPFvvEEEEONSt16remove_referenceIT_E4typeEOS6_, symObjAddr: 0x730, symBinAddr: 0x100000EC8, symSize: 0x14 }
+  - { offset: 0x7808, size: 0x8, addend: 0x0, symName: __ZNSt6thread8_InvokerISt5tupleIJPFvvEEEE9_M_invokeIJLm0EEEEvSt12_Index_tupleIJXspT_EEE, symObjAddr: 0x704, symBinAddr: 0x100000E9C, symSize: 0x2C }
+  - { offset: 0x784B, size: 0x8, addend: 0x0, symName: __ZNSt6thread8_InvokerISt5tupleIJPFvvEEEEclEv, symObjAddr: 0x6E4, symBinAddr: 0x100000E7C, symSize: 0x20 }
+  - { offset: 0x7875, size: 0x8, addend: 0x0, symName: __ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvvEEEEEE6_M_runEv, symObjAddr: 0x6C0, symBinAddr: 0x100000E58, symSize: 0x24 }
+  - { offset: 0x789B, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x91C, symBinAddr: 0x100000FBC, symSize: 0x3C }
+  - { offset: 0x78DE, size: 0x8, addend: 0x0, symName: __ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvvEEEEEED0Ev, symObjAddr: 0x698, symBinAddr: 0x100000E30, symSize: 0x28 }
+  - { offset: 0x7908, size: 0x8, addend: 0x0, symName: __ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvvEEEEEED1Ev, symObjAddr: 0x664, symBinAddr: 0x100000DFC, symSize: 0x34 }
+  - { offset: 0x792A, size: 0x8, addend: 0x0, symName: __ZNSt10_Head_baseILm1ESt14default_deleteINSt6thread6_StateEELb1EE7_M_headERS4_, symObjAddr: 0x650, symBinAddr: 0x100000DE8, symSize: 0x14 }
+  - { offset: 0x7953, size: 0x8, addend: 0x0, symName: __ZNSt11_Tuple_implILm1EJSt14default_deleteINSt6thread6_StateEEEE7_M_headERS4_, symObjAddr: 0x634, symBinAddr: 0x100000DCC, symSize: 0x1C }
+  - { offset: 0x797D, size: 0x8, addend: 0x0, symName: __ZNSt10_Head_baseILm0EPNSt6thread6_StateELb0EE7_M_headERS3_, symObjAddr: 0x620, symBinAddr: 0x100000DB8, symSize: 0x14 }
+  - { offset: 0x79C4, size: 0x8, addend: 0x0, symName: __ZNSt10_Head_baseILm1ESt14default_deleteINSt6thread6_StateEELb1EEC2Ev, symObjAddr: 0x60C, symBinAddr: 0x100000DA4, symSize: 0x14 }
+  - { offset: 0x79E6, size: 0x8, addend: 0x0, symName: __ZSt12__get_helperILm1ESt14default_deleteINSt6thread6_StateEEJEERT0_RSt11_Tuple_implIXT_EJS4_DpT1_EE, symObjAddr: 0x5F0, symBinAddr: 0x100000D88, symSize: 0x1C }
+  - { offset: 0x7A28, size: 0x8, addend: 0x0, symName: __ZNSt11_Tuple_implILm0EJPNSt6thread6_StateESt14default_deleteIS1_EEE7_M_headERS5_, symObjAddr: 0x5D4, symBinAddr: 0x100000D6C, symSize: 0x1C }
+  - { offset: 0x7A70, size: 0x8, addend: 0x0, symName: __ZNSt10_Head_baseILm0EPNSt6thread6_StateELb0EEC2Ev, symObjAddr: 0x5B8, symBinAddr: 0x100000D50, symSize: 0x1C }
+  - { offset: 0x7AB0, size: 0x8, addend: 0x0, symName: __ZNSt11_Tuple_implILm1EJSt14default_deleteINSt6thread6_StateEEEEC2Ev, symObjAddr: 0x598, symBinAddr: 0x100000D30, symSize: 0x20 }
+  - { offset: 0x7AFD, size: 0x8, addend: 0x0, symName: __ZNSt10_Head_baseILm0EPFvvELb0EEC2ERKS1_, symObjAddr: 0x570, symBinAddr: 0x100000D08, symSize: 0x28 }
+  - { offset: 0x7B2E, size: 0x8, addend: 0x0, symName: __ZSt3getILm1EJPNSt6thread6_StateESt14default_deleteIS1_EEERNSt13tuple_elementIXT_ESt5tupleIJDpT0_EEE4typeERS9_, symObjAddr: 0x554, symBinAddr: 0x100000CEC, symSize: 0x1C }
+  - { offset: 0x7B72, size: 0x8, addend: 0x0, symName: __ZSt12__get_helperILm0EPNSt6thread6_StateEJSt14default_deleteIS1_EEERT0_RSt11_Tuple_implIXT_EJS5_DpT1_EE, symObjAddr: 0x538, symBinAddr: 0x100000CD0, symSize: 0x1C }
+  - { offset: 0x7BD8, size: 0x8, addend: 0x0, symName: __ZNSt11_Tuple_implILm0EJPNSt6thread6_StateESt14default_deleteIS1_EEEC2Ev, symObjAddr: 0x510, symBinAddr: 0x100000CA8, symSize: 0x28 }
+  - { offset: 0x7C26, size: 0x8, addend: 0x0, symName: __ZNSt11_Tuple_implILm0EJPFvvEEEC2ERKS1_, symObjAddr: 0x4E8, symBinAddr: 0x100000C80, symSize: 0x28 }
+  - { offset: 0x7C55, size: 0x8, addend: 0x0, symName: __ZNSt15__uniq_ptr_implINSt6thread6_StateESt14default_deleteIS1_EE10_M_deleterEv, symObjAddr: 0x4CC, symBinAddr: 0x100000C64, symSize: 0x1C }
+  - { offset: 0x7C81, size: 0x8, addend: 0x0, symName: __ZSt3getILm0EJPNSt6thread6_StateESt14default_deleteIS1_EEERNSt13tuple_elementIXT_ESt5tupleIJDpT0_EEE4typeERS9_, symObjAddr: 0x4B0, symBinAddr: 0x100000C48, symSize: 0x1C }
+  - { offset: 0x7CED, size: 0x8, addend: 0x0, symName: __ZNSt5tupleIJPNSt6thread6_StateESt14default_deleteIS1_EEEC1ILb1ELb1EEEv, symObjAddr: 0x490, symBinAddr: 0x100000C28, symSize: 0x20 }
+  - { offset: 0x7D4F, size: 0x8, addend: 0x0, symName: __ZNSt5tupleIJPFvvEEEC1ILb1ELb1EEERKS1_, symObjAddr: 0x468, symBinAddr: 0x100000C00, symSize: 0x28 }
+  - { offset: 0x7D88, size: 0x8, addend: 0x0, symName: __ZNKSt14default_deleteINSt6thread6_StateEEclEPS1_, symObjAddr: 0x430, symBinAddr: 0x100000BC8, symSize: 0x38 }
+  - { offset: 0x7DC4, size: 0x8, addend: 0x0, symName: __ZSt4moveIRPNSt6thread6_StateEEONSt16remove_referenceIT_E4typeEOS5_, symObjAddr: 0x41C, symBinAddr: 0x100000BB4, symSize: 0x14 }
+  - { offset: 0x7DFA, size: 0x8, addend: 0x0, symName: __ZNSt10unique_ptrINSt6thread6_StateESt14default_deleteIS1_EE11get_deleterEv, symObjAddr: 0x400, symBinAddr: 0x100000B98, symSize: 0x1C }
+  - { offset: 0x7E24, size: 0x8, addend: 0x0, symName: __ZNSt15__uniq_ptr_implINSt6thread6_StateESt14default_deleteIS1_EE6_M_ptrEv, symObjAddr: 0x3E4, symBinAddr: 0x100000B7C, symSize: 0x1C }
+  - { offset: 0x7E75, size: 0x8, addend: 0x0, symName: __ZNSt15__uniq_ptr_implINSt6thread6_StateESt14default_deleteIS1_EEC2EPS1_, symObjAddr: 0x3A8, symBinAddr: 0x100000B40, symSize: 0x3C }
+  - { offset: 0x7EDB, size: 0x8, addend: 0x0, symName: __ZNSt6thread8_InvokerISt5tupleIJPFvvEEEEC1IJRS2_EEEDpOT_, symObjAddr: 0x364, symBinAddr: 0x100000AFC, symSize: 0x44 }
+  - { offset: 0x7F51, size: 0x8, addend: 0x0, symName: __ZNSt10unique_ptrINSt6thread6_StateESt14default_deleteIS1_EED1Ev, symObjAddr: 0x2FC, symBinAddr: 0x100000A94, symSize: 0x68 }
+  - { offset: 0x7FD5, size: 0x8, addend: 0x0, symName: __ZNSt10unique_ptrINSt6thread6_StateESt14default_deleteIS1_EEC1IS3_vEEPS1_, symObjAddr: 0x2D4, symBinAddr: 0x100000A6C, symSize: 0x28 }
+  - { offset: 0x802F, size: 0x8, addend: 0x0, symName: __ZNSt15__uniq_ptr_dataINSt6thread6_StateESt14default_deleteIS1_ELb1ELb1EECI1St15__uniq_ptr_implIS1_S3_EEPS1_, symObjAddr: 0x2AC, symBinAddr: 0x100000A44, symSize: 0x28 }
+  - { offset: 0x808E, size: 0x8, addend: 0x0, symName: __ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvvEEEEEEC1IJRS3_EEEDpOT_, symObjAddr: 0x23C, symBinAddr: 0x1000009D4, symSize: 0x70 }
+  - { offset: 0x80EB, size: 0x8, addend: 0x0, symName: __ZNSt6thread6_StateC2Ev, symObjAddr: 0x214, symBinAddr: 0x1000009AC, symSize: 0x28 }
+  - { offset: 0x8117, size: 0x8, addend: 0x0, symName: __ZSt7forwardIRFvvEEOT_RNSt16remove_referenceIS2_E4typeE, symObjAddr: 0x200, symBinAddr: 0x100000998, symSize: 0x14 }
+  - { offset: 0x8189, size: 0x8, addend: 0x0, symName: __ZNSt6threadC1IRFvvEJEvEEOT_DpOT0_, symObjAddr: 0x144, symBinAddr: 0x1000008DC, symSize: 0xBC }
+  - { offset: 0x81DE, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xD8, symBinAddr: 0x100000870, symSize: 0x6C }
+  - { offset: 0x820E, size: 0x8, addend: 0x0, symName: __Z4taskv, symObjAddr: 0xB0, symBinAddr: 0x100000848, symSize: 0x28 }
+  - { offset: 0x8226, size: 0x8, addend: 0x0, symName: __ZSteqNSt6thread2idES0_, symObjAddr: 0x88, symBinAddr: 0x100000820, symSize: 0x28 }
+  - { offset: 0x8265, size: 0x8, addend: 0x0, symName: __ZNKSt6thread8joinableEv, symObjAddr: 0x54, symBinAddr: 0x1000007EC, symSize: 0x34 }
+  - { offset: 0x82B3, size: 0x8, addend: 0x0, symName: __ZNSt6threadD1Ev, symObjAddr: 0x24, symBinAddr: 0x1000007BC, symSize: 0x30 }
+  - { offset: 0x82EE, size: 0x8, addend: 0x0, symName: __ZNSt6thread24_M_thread_deps_never_runEv, symObjAddr: 0x1C, symBinAddr: 0x1000007B4, symSize: 0x8 }
+  - { offset: 0x8324, size: 0x8, addend: 0x0, symName: __ZNSt6thread2idC1Ev, symObjAddr: 0x0, symBinAddr: 0x100000798, symSize: 0x1C }
+...

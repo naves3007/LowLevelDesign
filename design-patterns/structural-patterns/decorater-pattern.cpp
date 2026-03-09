@@ -35,9 +35,6 @@ class EmergencyDecorator : public Decorator{
         }
 };
 
-
-
-
 int main(){
     ISend* emailSender = new EmailSender();
     ISend* emergencyEmailSender = new EmergencyDecorator(emailSender);
